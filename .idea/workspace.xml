@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="18" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.8126411" vertical-offset="0" max-vertical-offset="1026">
+            <state line="40" column="18" selection-start="1603" selection-end="1603" vertical-scroll-proportion="-26.666666" vertical-offset="0" max-vertical-offset="1026">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="31" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3006">
+            <state line="3" column="29" selection-start="60" selection-end="60" vertical-scroll-proportion="0.058315333" vertical-offset="0" max-vertical-offset="3006">
               <folding />
             </state>
           </provider>
@@ -60,8 +60,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -214,16 +215,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="31" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3006">
+        <state line="22" column="9" selection-start="583" selection-end="583" vertical-scroll-proportion="0.4276458" vertical-offset="0" max-vertical-offset="926">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="18" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.8126411" vertical-offset="0" max-vertical-offset="1026">
+        <state line="40" column="18" selection-start="1603" selection-end="1603" vertical-scroll-proportion="-26.666666" vertical-offset="0" max-vertical-offset="1026">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="29" selection-start="60" selection-end="60" vertical-scroll-proportion="0.058315333" vertical-offset="0" max-vertical-offset="3006">
           <folding />
         </state>
       </provider>
