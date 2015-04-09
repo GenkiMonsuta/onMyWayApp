@@ -8,11 +8,12 @@
     <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
     <link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />    <script type="text/javascript" src="js/program.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src=""></script>
 
 </head>
 
-<body onload="onLoad();">
+<body onload="initializeMap()">
 
 <div class="site-wrapper">
 
@@ -22,20 +23,17 @@
 
             <div class="masthead clearfix">
                 <div class="inner">
-                    <h3 class="masthead-brand">onMyWayApp</h3>
+                    <h3 class="selectionHeader">Where are you going?</h3>
                     <nav>
                         <ul class="nav masthead-nav">
-                            <li class="active"><a href="#">Home</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
 
             <div class="inner cover">
-                <h1 class="cover-heading">Welcome to onMyWayApp!</h1>
-                <p class="lead">onMyWayApp allows you to set a location. Once you go outside of the parameters of your location, an automated message will be send to whomever you want! yay!</p>
                 <p class="lead">
-                <div id="map">
+                <div id="mapt">
                 </div>
             </div>
 
@@ -55,11 +53,12 @@
 
     function initializeMap() {
         var mapOptions = {
-            center: new google.maps.LatLng(43.069452, -89.411373),
+            center: new google.maps.LatLng(51.210645, 4.035176),
             zoom: 11,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
-        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+        var map = new google.maps.Map(document.getElementById("mapt"), mapOptions);
     }
 
 </script>
