@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>onMyWayApp</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />    <script type="text/javascript" src="js/program.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/googlemap.js"></script>
+    <script type="text/javascript">
+        function onLoad() {
+            document.addEventListener("deviceready", onDeviceReady, false);
+        }
+
+        function onDeviceReady() {
+            var map = new GoogleMap();
+            map.initialize();
+        }
+    </script>
+
+</head>
+
+<body>
+
+<div class="site-wrapper">
+
+    <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+            <div class="masthead clearfix">
+                <div class="inner">
+                    <h3 class="masthead-brand">onMyWayApp</h3>
+                    <nav>
+                        <ul class="nav masthead-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="inner cover">
+                <h1 class="cover-heading">Welcome to onMyWayApp!</h1>
+                <p class="lead">onMyWayApp allows you to set a location. Once you go outside of the parameters of your location, an automated message will be send to whomever you want! yay!</p>
+                <p class="lead">
+                <div id="map_canvas">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+</body>
+
+
+
+
+</html>
