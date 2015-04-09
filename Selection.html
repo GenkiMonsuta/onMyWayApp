@@ -10,15 +10,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="js/googlemap.js"></script>
     <script type="text/javascript">
         function onLoad() {
-            document.addEventListener("deviceready", onDeviceReady, false);
+            document.addEventListener("deviceready", initializeMap, false);
         }
-
-        function onDeviceReady() {
-            var map = new GoogleMap();
-            map.initialize();
+        function initializeMap() {
+            var mapOptions = {
+                center: new google.maps.LatLng(43.069452, -89.411373),
+                zoom: 11,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("map"), mapOptions);
         }
     </script>
 
@@ -47,7 +49,7 @@
                 <h1 class="cover-heading">Welcome to onMyWayApp!</h1>
                 <p class="lead">onMyWayApp allows you to set a location. Once you go outside of the parameters of your location, an automated message will be send to whomever you want! yay!</p>
                 <p class="lead">
-                <div id="map_canvas">
+                <div id="map">
                 </div>
             </div>
 
