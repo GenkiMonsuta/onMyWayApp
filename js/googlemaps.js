@@ -18,4 +18,10 @@ function initializeMap() {
             )
         });
     });
+
+    document.addEventListener('touchstart', function(event) {
+        alert(event.touches.length);
+    }, false);
+
 }
+
