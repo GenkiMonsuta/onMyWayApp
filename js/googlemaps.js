@@ -8,4 +8,14 @@ function initializeMap() {
     };
 
     var map = new google.maps.Map(document.getElementById("mapt"), mapOptions);
+
+    google.maps.event.addListener(map, 'mousedown', function(event){
+        new google.maps.Marker({
+            map: map,
+            position: new google.maps.LatLng(
+                event.latLng.Pa,
+                event.latLng.Qa
+            )
+        });
+    });
 }

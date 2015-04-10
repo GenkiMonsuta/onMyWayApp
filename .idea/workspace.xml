@@ -50,10 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="program.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="program.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/program.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="929">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="googlemaps.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/googlemaps.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="32" selection-start="471" selection-end="471" vertical-scroll-proportion="0.29063508" vertical-offset="0" max-vertical-offset="929">
               <folding />
             </state>
           </provider>
@@ -74,8 +83,8 @@
         <option value="$PROJECT_DIR$/fjl.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/js/googlemaps.js" />
         <option value="$PROJECT_DIR$/Selection.html" />
+        <option value="$PROJECT_DIR$/js/googlemaps.js" />
       </list>
     </option>
   </component>
@@ -275,13 +284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/googlemaps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Selection.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="13" selection-start="843" selection-end="843" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="1116">
@@ -292,6 +294,13 @@
     <entry file="file://$PROJECT_DIR$/js/program.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/googlemaps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="32" selection-start="471" selection-end="471" vertical-scroll-proportion="0.29063508" vertical-offset="0" max-vertical-offset="929">
           <folding />
         </state>
       </provider>
