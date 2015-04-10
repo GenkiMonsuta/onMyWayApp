@@ -9,7 +9,12 @@
     <link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />    <script type="text/javascript" src="js/program.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
-    <script type="text/javascript" src=""></script>
+    <script type="text/javascript">
+        function onLoad() {
+            document.addEventListener("deviceready", initializeMap, false);
+        }
+    </script>
+    <script type="text/javascript" src="js/googlemaps.js"></script>
 
 </head>
 
@@ -46,22 +51,7 @@
 
 </body>
 
-<script type="text/javascript">
-    function onLoad() {
-        document.addEventListener("deviceready", initializeMap, false);
-    }
 
-    function initializeMap() {
-        var mapOptions = {
-            center: new google.maps.LatLng(51.210645, 4.035176),
-            zoom: 11,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-
-        var map = new google.maps.Map(document.getElementById("mapt"), mapOptions);
-    }
-
-</script>
 
 
 </html>
