@@ -6,19 +6,16 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-    <link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />    <script type="text/javascript" src="js/program.js"></script>
+    <link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="http://openlayers.org/en/v3.4.0/css/ol.css" type="text/css">
+    <script type="text/javascript" src="js/program.js"></script>
+    <script src="http://openlayers.org/en/v3.4.0/build/ol.js" type="text/javascript"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
-    <script type="text/javascript">
-        function onLoad() {
-            document.addEventListener("deviceready", initializeMap, false);
-        }
-    </script>
-    <script type="text/javascript" src="js/googlemaps.js"></script>
+    <script type="text/javascript" src="js/Map.js"></script>
 
 </head>
 
-<body onload="initializeMap()">
+<body onload="myMap()">
 
 <div class="site-wrapper">
 
@@ -29,16 +26,20 @@
             <div class="masthead clearfix">
                 <div class="inner">
                     <h3 class="selectionHeader">Where are you going?</h3>
-                    <nav>
-                        <ul class="nav masthead-nav">
-                        </ul>
-                    </nav>
+                    <div class="row">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Adress">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">Go!</button>
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="inner cover">
                 <p class="lead">
-                <div id="mapt">
+                <div id="map">
                 </div>
             </div>
 
